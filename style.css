@@ -1,0 +1,132 @@
+/*---------------------- google font ----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/*---------------------- Common css ----------------------*/
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --btn-color: #e6e0e2;
+  }
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*---------------------- Header css ----------------------*/
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 420px;
+    padding: 10px 5px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+.menu ul li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu ul li a{
+    display: flex;
+    padding: 8px 30px;
+    color: rgb(26, 27, 27);
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: chocolate;
+}
+
+.hero-area {
+    width: 100%;
+    background-color: #484296;
+  }
+.hero {
+  width: 100%;
+  padding: 50px 0;
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.right-side h3 {
+    color: #dddddd;
+    font-size: 34px;
+    margin-top: 114px;
+}
+.right-side a {
+    color: rgb(5, 5, 5);
+    padding: 15px 40px;
+        padding-top: 15px;
+    background-color: var(--btn-color);
+    transition: 0.5s;
+    position: relative;
+    margin-left: 17px;
+    margin-top: 14px;
+    padding-top: 11px;
+}
+.right-side p {
+    margin-bottom: 35px;
+}
+
+.left-side {
+  align-items: center;
+}
+
+
+/*----------------------  service area css ----------------------*/
+.service-area {
+  width: 100%;
+
+  padding: 70px 0;
+}
+.service-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  text-align: center;
+}
+.singel-item {
+  max-width: 500px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+.singel-item:hover{
+    box-shadow: 3px 6px 5px gray;
+}
